@@ -20,6 +20,19 @@ This project provides an internal API to return the status of a user's card by c
 - MongoDB is used to store and manage the card status data.
 - Each card's status is updated based on the information parsed from the CSV files.
 
+
+## How to start project
+**Request URL**: `git clone [<repository-url>](https://github.com/harshitmarmat/zywaAssignment.git) <br> cd <repository-directory>`
+
+**Install dependencies:** : `npm install`
+
+**Run the server:** : `npm run start`
+
+**Alternatively, you can use Docker to run the application:** `docker build -t card-status-api . <br> docker run -p 5432:5432 card-status-api`
+
+**Access the API:** `http://localhost:5432/get_card_status?phone=<user-phone>&card=<card-id>`
+
+
 ### API Endpoints:
 - The main endpoint `/get_card_status` allows querying the card status using either the user's phone number or the card ID.
 
