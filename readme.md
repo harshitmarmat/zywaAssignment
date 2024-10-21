@@ -31,10 +31,10 @@ This project provides an internal API to return the status of a user's card by c
 
 3. **Run the server:** : `npm run start`
 
-**Alternatively, you can use Docker to run the application:** 
+    **Alternatively, you can use Docker to run the application:**
     ```bash
-    docker build -t card-status-api .  
-    docker run -p 5432:5432 card-status-api
+    docker build -t card-status-api .
+    docker run -p 5432:5432 card-status-ap
 
 4. **Access the API:** `http://localhost:5432/get_card_status?phone=<user-phone>&card=<card-id>`
 
