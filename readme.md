@@ -27,9 +27,9 @@ This project provides an internal API to return the status of a user's card by c
    git clone [https://github.com/harshitmarmat/zywaAssignment.git]
    cd <repository-directory>
 
-2. **Install dependencies:** : `npm install`
+2. **Install dependencies:** `npm install`
 
-3. **Run the server:** : `npm run start`
+3. **Run the server:**  `npm run start`
 
     **Alternatively, you can use Docker to run the application:**
     ```bash
